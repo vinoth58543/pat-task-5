@@ -1,0 +1,7 @@
+def count_unique_characters(input_string):
+    unique_characters = set(input_string)  # Convert the string to a set to remove duplicates
+    return len(unique_characters)
+    # Example usage:
+input_string = "hello"
+result = count_unique_characters(input_string)
+print(result)
