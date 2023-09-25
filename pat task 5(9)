@@ -1,0 +1,8 @@
+def count_words(input_string):
+    # Split the string into words using whitespace as the delimiter
+    words = input_string.split()
+    # Return the number of words
+    return len(words)
+   text = "This is a sample sentence."
+word_count = count_words('text')
+print("Number of words:", word_count)
